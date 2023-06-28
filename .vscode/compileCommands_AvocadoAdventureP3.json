@@ -1,0 +1,42 @@
+[
+	{
+		"file": "F:\\Universidad\\Motores graficos nueva generacion\\AvocadoGame\\AvocadoAdventure\\Source\\AvocadoAdventureP3\\AvocadoAdventureP3.Build.cs",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@F:\\Universidad\\Motores graficos nueva generacion\\AvocadoGame\\AvocadoAdventure\\.vscode\\compileCommands_AvocadoAdventureP3\\AvocadoAdventureP3.262.rsp"
+		],
+		"directory": "E:\\Epic\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "F:\\Universidad\\Motores graficos nueva generacion\\AvocadoGame\\AvocadoAdventure\\Source\\AvocadoAdventureP3\\AvocadoAdventureP3.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@F:\\Universidad\\Motores graficos nueva generacion\\AvocadoGame\\AvocadoAdventure\\.vscode\\compileCommands_AvocadoAdventureP3\\AvocadoAdventureP3.262.rsp"
+		],
+		"directory": "E:\\Epic\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "F:\\Universidad\\Motores graficos nueva generacion\\AvocadoGame\\AvocadoAdventure\\Source\\AvocadoAdventureP3\\AvocadoAdventureP3.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@F:\\Universidad\\Motores graficos nueva generacion\\AvocadoGame\\AvocadoAdventure\\.vscode\\compileCommands_AvocadoAdventureP3\\AvocadoAdventureP3.262.rsp"
+		],
+		"directory": "E:\\Epic\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "F:\\Universidad\\Motores graficos nueva generacion\\AvocadoGame\\AvocadoAdventure\\Source\\AvocadoAdventureP3\\Private\\Movimiento.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@F:\\Universidad\\Motores graficos nueva generacion\\AvocadoGame\\AvocadoAdventure\\.vscode\\compileCommands_AvocadoAdventureP3\\AvocadoAdventureP3.262.rsp"
+		],
+		"directory": "E:\\Epic\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "F:\\Universidad\\Motores graficos nueva generacion\\AvocadoGame\\AvocadoAdventure\\Source\\AvocadoAdventureP3\\Public\\Movimiento.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@F:\\Universidad\\Motores graficos nueva generacion\\AvocadoGame\\AvocadoAdventure\\.vscode\\compileCommands_AvocadoAdventureP3\\AvocadoAdventureP3.262.rsp"
+		],
+		"directory": "E:\\Epic\\UE_5.1\\Engine\\Source"
+	}
+]

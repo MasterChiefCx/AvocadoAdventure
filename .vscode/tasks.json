@@ -1,0 +1,437 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "AvocadoAdventureP3 Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AvocadoAdventureP3",
+				"Win64",
+				"Debug",
+				"F:\\Universidad\\Motores graficos nueva generacion\\AvocadoGame\\AvocadoAdventure\\AvocadoAdventureP3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Epic\\UE_5.1"
+			}
+		},
+		{
+			"label": "AvocadoAdventureP3 Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AvocadoAdventureP3",
+				"Win64",
+				"Debug",
+				"F:\\Universidad\\Motores graficos nueva generacion\\AvocadoGame\\AvocadoAdventure\\AvocadoAdventureP3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AvocadoAdventureP3 Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Epic\\UE_5.1"
+			}
+		},
+		{
+			"label": "AvocadoAdventureP3 Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"AvocadoAdventureP3",
+				"Win64",
+				"Debug",
+				"F:\\Universidad\\Motores graficos nueva generacion\\AvocadoGame\\AvocadoAdventure\\AvocadoAdventureP3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Epic\\UE_5.1"
+			}
+		},
+		{
+			"label": "AvocadoAdventureP3 Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AvocadoAdventureP3",
+				"Win64",
+				"DebugGame",
+				"F:\\Universidad\\Motores graficos nueva generacion\\AvocadoGame\\AvocadoAdventure\\AvocadoAdventureP3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Epic\\UE_5.1"
+			}
+		},
+		{
+			"label": "AvocadoAdventureP3 Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AvocadoAdventureP3",
+				"Win64",
+				"DebugGame",
+				"F:\\Universidad\\Motores graficos nueva generacion\\AvocadoGame\\AvocadoAdventure\\AvocadoAdventureP3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AvocadoAdventureP3 Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Epic\\UE_5.1"
+			}
+		},
+		{
+			"label": "AvocadoAdventureP3 Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"AvocadoAdventureP3",
+				"Win64",
+				"DebugGame",
+				"F:\\Universidad\\Motores graficos nueva generacion\\AvocadoGame\\AvocadoAdventure\\AvocadoAdventureP3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Epic\\UE_5.1"
+			}
+		},
+		{
+			"label": "AvocadoAdventureP3 Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AvocadoAdventureP3",
+				"Win64",
+				"Development",
+				"F:\\Universidad\\Motores graficos nueva generacion\\AvocadoGame\\AvocadoAdventure\\AvocadoAdventureP3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Epic\\UE_5.1"
+			}
+		},
+		{
+			"label": "AvocadoAdventureP3 Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AvocadoAdventureP3",
+				"Win64",
+				"Development",
+				"F:\\Universidad\\Motores graficos nueva generacion\\AvocadoGame\\AvocadoAdventure\\AvocadoAdventureP3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AvocadoAdventureP3 Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Epic\\UE_5.1"
+			}
+		},
+		{
+			"label": "AvocadoAdventureP3 Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"AvocadoAdventureP3",
+				"Win64",
+				"Development",
+				"F:\\Universidad\\Motores graficos nueva generacion\\AvocadoGame\\AvocadoAdventure\\AvocadoAdventureP3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Epic\\UE_5.1"
+			}
+		},
+		{
+			"label": "AvocadoAdventureP3 Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AvocadoAdventureP3",
+				"Win64",
+				"Test",
+				"F:\\Universidad\\Motores graficos nueva generacion\\AvocadoGame\\AvocadoAdventure\\AvocadoAdventureP3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Epic\\UE_5.1"
+			}
+		},
+		{
+			"label": "AvocadoAdventureP3 Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AvocadoAdventureP3",
+				"Win64",
+				"Test",
+				"F:\\Universidad\\Motores graficos nueva generacion\\AvocadoGame\\AvocadoAdventure\\AvocadoAdventureP3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AvocadoAdventureP3 Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Epic\\UE_5.1"
+			}
+		},
+		{
+			"label": "AvocadoAdventureP3 Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"AvocadoAdventureP3",
+				"Win64",
+				"Test",
+				"F:\\Universidad\\Motores graficos nueva generacion\\AvocadoGame\\AvocadoAdventure\\AvocadoAdventureP3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Epic\\UE_5.1"
+			}
+		},
+		{
+			"label": "AvocadoAdventureP3 Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AvocadoAdventureP3",
+				"Win64",
+				"Shipping",
+				"F:\\Universidad\\Motores graficos nueva generacion\\AvocadoGame\\AvocadoAdventure\\AvocadoAdventureP3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Epic\\UE_5.1"
+			}
+		},
+		{
+			"label": "AvocadoAdventureP3 Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AvocadoAdventureP3",
+				"Win64",
+				"Shipping",
+				"F:\\Universidad\\Motores graficos nueva generacion\\AvocadoGame\\AvocadoAdventure\\AvocadoAdventureP3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AvocadoAdventureP3 Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Epic\\UE_5.1"
+			}
+		},
+		{
+			"label": "AvocadoAdventureP3 Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"AvocadoAdventureP3",
+				"Win64",
+				"Shipping",
+				"F:\\Universidad\\Motores graficos nueva generacion\\AvocadoGame\\AvocadoAdventure\\AvocadoAdventureP3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Epic\\UE_5.1"
+			}
+		},
+		{
+			"label": "AvocadoAdventureP3Editor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AvocadoAdventureP3Editor",
+				"Win64",
+				"Debug",
+				"F:\\Universidad\\Motores graficos nueva generacion\\AvocadoGame\\AvocadoAdventure\\AvocadoAdventureP3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Epic\\UE_5.1"
+			}
+		},
+		{
+			"label": "AvocadoAdventureP3Editor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AvocadoAdventureP3Editor",
+				"Win64",
+				"Debug",
+				"F:\\Universidad\\Motores graficos nueva generacion\\AvocadoGame\\AvocadoAdventure\\AvocadoAdventureP3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AvocadoAdventureP3Editor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Epic\\UE_5.1"
+			}
+		},
+		{
+			"label": "AvocadoAdventureP3Editor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"AvocadoAdventureP3Editor",
+				"Win64",
+				"Debug",
+				"F:\\Universidad\\Motores graficos nueva generacion\\AvocadoGame\\AvocadoAdventure\\AvocadoAdventureP3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Epic\\UE_5.1"
+			}
+		},
+		{
+			"label": "AvocadoAdventureP3Editor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AvocadoAdventureP3Editor",
+				"Win64",
+				"DebugGame",
+				"F:\\Universidad\\Motores graficos nueva generacion\\AvocadoGame\\AvocadoAdventure\\AvocadoAdventureP3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Epic\\UE_5.1"
+			}
+		},
+		{
+			"label": "AvocadoAdventureP3Editor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AvocadoAdventureP3Editor",
+				"Win64",
+				"DebugGame",
+				"F:\\Universidad\\Motores graficos nueva generacion\\AvocadoGame\\AvocadoAdventure\\AvocadoAdventureP3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AvocadoAdventureP3Editor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Epic\\UE_5.1"
+			}
+		},
+		{
+			"label": "AvocadoAdventureP3Editor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"AvocadoAdventureP3Editor",
+				"Win64",
+				"DebugGame",
+				"F:\\Universidad\\Motores graficos nueva generacion\\AvocadoGame\\AvocadoAdventure\\AvocadoAdventureP3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Epic\\UE_5.1"
+			}
+		},
+		{
+			"label": "AvocadoAdventureP3Editor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AvocadoAdventureP3Editor",
+				"Win64",
+				"Development",
+				"F:\\Universidad\\Motores graficos nueva generacion\\AvocadoGame\\AvocadoAdventure\\AvocadoAdventureP3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Epic\\UE_5.1"
+			}
+		},
+		{
+			"label": "AvocadoAdventureP3Editor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AvocadoAdventureP3Editor",
+				"Win64",
+				"Development",
+				"F:\\Universidad\\Motores graficos nueva generacion\\AvocadoGame\\AvocadoAdventure\\AvocadoAdventureP3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AvocadoAdventureP3Editor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Epic\\UE_5.1"
+			}
+		},
+		{
+			"label": "AvocadoAdventureP3Editor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"AvocadoAdventureP3Editor",
+				"Win64",
+				"Development",
+				"F:\\Universidad\\Motores graficos nueva generacion\\AvocadoGame\\AvocadoAdventure\\AvocadoAdventureP3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Epic\\UE_5.1"
+			}
+		}
+	]
+}
